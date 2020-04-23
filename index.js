@@ -5,7 +5,7 @@ class Cat {
   }
   
    sayMeow() {
-        return `Hi my name is ${this.name}`;
+        return `${this.name}`;
     }
 }
  
