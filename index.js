@@ -23,10 +23,11 @@ class Bird {
     this.name = name;
     this.sex = sex;
   }
+  
   sayBird() {
         if this.sex="male" {
-        return `It's me! ${this.name} says meow!`; }
-        else 
-        
+        return `It's me! ${this.name}, the parrot!`; }
+        else {
+        `${this.name} says woof!`; }
    }
 }
