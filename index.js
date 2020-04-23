@@ -3,8 +3,7 @@ class Cat {
     this.name = name;
     this.sex = sex;
   }
-  
-   sayMeow() {
+   sayCat() {
         return `${this.name} says meow!`; 
     }
 }
@@ -14,6 +13,9 @@ class Dog {
     this.name = name;
     this.sex = sex;
   }
+  sayDog() {
+        return `${this.name} says woof!`; 
+    }
 }
  
 class Bird {
@@ -21,4 +23,10 @@ class Bird {
     this.name = name;
     this.sex = sex;
   }
+  sayBird() {
+        if this.sex="male" {
+        return `${this.name} says meow!`; }
+        else 
+        
+   }
 }
