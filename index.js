@@ -5,7 +5,7 @@ class Cat {
   }
   
    sayMeow() {
-        return `${this.name}`; 
+        return `${this.name} says meow!`; 
     }
 }
  
