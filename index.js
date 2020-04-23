@@ -1,11 +1,22 @@
 class Cat {
-  constructor(name, sex)
+  constructor(name, sex) {
+    this.name = name;
+    this.sex = sex;
+  }
+  
+  return 
 }
  
 class Dog {
-  constructor(name, sex)
+  constructor(name, sex) {
+    this.name = name;
+    this.sex = sex;
+  }
 }
  
 class Bird {
-  constructor(name, sex)
+ constructor(name, sex) {
+    this.name = name;
+    this.sex = sex;
+  }
 }
